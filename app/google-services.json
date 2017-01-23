@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "386696033473",
+    "firebase_url": "https://notebooknanodegree.firebaseio.com",
+    "project_id": "notebooknanodegree",
+    "storage_bucket": "notebooknanodegree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386696033473:android:986d9c684dae4c9c",
+        "android_client_info": {
+          "package_name": "com.example.amr.notebook_nanodegree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386696033473-u7c24h2j1k0iak1oe519f2f6l8m7f3v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBBzLz8V4M0xRIn5hDZ0foQjShG1b-cfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

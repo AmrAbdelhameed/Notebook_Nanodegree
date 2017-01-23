@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="descrip">Description</string>
+    <string name="save">Save Contact</string>
+    <string name="deleteContact">Do you want to delete it ?! </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
