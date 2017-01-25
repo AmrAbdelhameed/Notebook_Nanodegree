@@ -46,6 +46,7 @@ public class AddFriend extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         firebaseAuth = FirebaseAuth.getInstance();
+        // getuserId
         user = firebaseAuth.getCurrentUser();
 
         mFirebaseInstance = FirebaseDatabase.getInstance();
