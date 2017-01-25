@@ -154,6 +154,7 @@ public class AddFriend extends AppCompatActivity {
                 descrip.setCursorVisible(true);
 
                 return true;
+
             case R.id.Delete_Contact:
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage(R.string.deleteContact)
@@ -174,9 +175,11 @@ public class AddFriend extends AppCompatActivity {
                 d.setTitle("Are you sure");
                 d.show();
                 return true;
+
             case R.id.home:
                 finish();
                 return true;
+
             default:
                 return super.onOptionsItemSelected(item);
 
@@ -293,5 +296,3 @@ public class AddFriend extends AppCompatActivity {
     }
 
 }
-
-

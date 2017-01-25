@@ -29,8 +29,8 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class ShowContacts extends AppCompatActivity {
-    private static final String TAG = MainActivity.class.getSimpleName();
 
+    private static final String TAG = MainActivity.class.getSimpleName();
     private FirebaseAuth firebaseAuth;
     private FirebaseUser user;
     ListView lv;
@@ -44,6 +44,7 @@ public class ShowContacts extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_contacts);
+
         specimens_name = new ArrayList<>();
         specimens_email = new ArrayList<>();
         specimens_phone = new ArrayList<>();
@@ -232,4 +233,5 @@ public class ShowContacts extends AppCompatActivity {
         }
         return super.onKeyDown(keycode, event);
     }
+
 }

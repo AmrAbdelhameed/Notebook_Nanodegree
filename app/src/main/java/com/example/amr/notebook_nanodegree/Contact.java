@@ -11,8 +11,7 @@ public class Contact {
     String address;
     String description;
 
-    public Contact() {
-    }
+    public Contact() {}
 
     public String getName() {
         return name;
