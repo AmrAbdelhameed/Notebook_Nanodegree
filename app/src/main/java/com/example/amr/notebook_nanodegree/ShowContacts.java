@@ -36,9 +36,9 @@ public class ShowContacts extends AppCompatActivity {
     ListView lv;
     TextView textempty;
     ArrayAdapter<String> adapter;
+    DatabaseReference databaseReference;
     ArrayList<String> specimens_name, specimens_email, specimens_phone, specimens_street, specimens_desc, specimens_id;
     int size_arraylist = 0;
-    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
